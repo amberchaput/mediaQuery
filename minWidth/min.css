@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+/* POINT OUT THAT WE HAVE img1 SET AS OUR BACKGROUND IMAGE */
+.container {
+  height: 1000px;
+  width: 100%;
+  background-image: url("img1.jpg");
+  background-repeat: no-repeat;
+}
+
+
+/* THEN WHEN THE CONTAINER IS AT MINIMUM 800px THE IMAGE CHANGES TO img2 */
+@media (min-width: 800px) {
+  .container {
+    height: 1000px;
+    width: 100%;
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+  }
+}

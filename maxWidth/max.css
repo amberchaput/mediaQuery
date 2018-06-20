@@ -1,0 +1,11 @@
+.container h1 {
+  font-size: 60px;
+}
+
+/* IF THE SCREEN IS ANY LARGER THAN 600px IT WILL REMAIN THE DEFAULT 60px */
+
+@media (max-width: 600px) {
+  .container h1 {
+    font-size: 16px;
+  }
+}
